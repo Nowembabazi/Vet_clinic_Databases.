@@ -2,6 +2,7 @@
 
 create database vet_clinic;
 
+
 CREATE TABLE animals (
     id serial PRIMARY KEY NOT NULL,
     name varchar(100),

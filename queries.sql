@@ -72,6 +72,7 @@ UPDATE animals SET weight_kg =weight_kg * -1;
 /* roolback to savepoint */
 ROLLBACK TO dob;
 
+
 /* update all animals' weights that are negative multiplied by -1 */
 UPDATE animals SET weight_kg = weight_kg * -1 WHERE weight_kg < 0;
 
