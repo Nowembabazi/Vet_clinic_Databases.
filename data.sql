@@ -31,5 +31,6 @@ VALUES ('Boarmon', '06-07-2005', 7, true, 20.4),
 INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg) 
 VALUES ('Boarmon', '06-07-2005', 7, true, 20.4), 
 
+
 INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg) 
 VALUES ('Ditto', '05-14-2022', 4, true, 22);
